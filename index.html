@@ -1,0 +1,52 @@
+<index class="html"></index>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>commentaire tp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="containers">
+    <header class="comments-header">
+        <h2>pascal TSINA</h2>
+        <p>lorem</p>
+        <select id="sort-select" aria-label="Trier les commentaires">
+            <option value="newest">Plus récents</option>
+            <option value="oldest">Plus anciens</option>
+            <option value="popular">plus populaires</option>
+        </select>
+    </header>
+    <div class="class"></div>
+    <h3>Ecrire un commentaire(<span id="comment-count">0</span></h3>
+    
+    <form>
+        <div class="container">
+        <div class="first">
+        <label for="first name">Prenom</label><br>
+        <input type="text" id="firsname" placeholder="Pascal"><br>
+        </div>
+        <div class="last">
+        <label for="last name">Nom</label><br>
+        <input type="text" id="lastName" placeholder="TSINA"><br>
+        </div>
+        </div>
+        <div class="comment">
+        <label for="first name">Commentaire</label><br>
+        <p>Max 500 caractères</p><br>
+        <textarea id="Message" name="Message" cols="60" rows="10" placeholder="Bonjour
+        je suis actuellement en formation pour devenir
+         développeur web
+        j'ai un exercice à réaliser et je bloque un peu
+        on m'a fourni un code et je doit veérifier dans
+        ce que tous les champs sont remplis; ajouter un 
+        nouveau commentaire au sein de la liste"></textarea><br>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+    <div id="commentsList"></div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
